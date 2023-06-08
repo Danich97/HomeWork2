@@ -1,4 +1,6 @@
-﻿int x = 78945;
+﻿string strValue = Console.ReadLine ();
+
+int x = int.Parse(strValue);
 
 int firstNumber = x / 10000;
 int secondNumber = (x / 1000 - firstNumber * 10);
